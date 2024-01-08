@@ -1,59 +1,104 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-p{
-    color: rgba(255, 255, 255, 0.80);
 
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+p {
+    color: rgba(0, 0, 0, 0.8);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-button{
+
+button {
     color: #FFF;
 
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
-header{
+
+header {
     background-color: white;
 }
-.container{
+
+.container {
     width: 75%;
     max-width: 1320px;
     margin: 0 auto;
     position: relative;
     text-align: center;
 }
-.banner{
+
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.banner .banner-text{
+.banner .banner-text {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
     line-height: normal;
+    margin: 30px;
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 16px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    /* background: url('images/Banner.png') linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 }
-.banner .banner-image{
+
+.banner .banner-image {
     padding-top: 50px;
+    background: url('images/Banner.png') linear-gradient(to top, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+.portfolio-top {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.portfolio-top h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-top p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
     
+}
+.portfolio-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }

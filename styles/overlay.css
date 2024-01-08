@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+.Over1{
+background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0,0,0.5)), url('/images/Banner.png');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+height: 600px;
+width: auto;
+}
