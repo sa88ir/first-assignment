@@ -150,18 +150,16 @@ header {
 .party-section h3 {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
-    font-style: normal;
+    font-size: 60px;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
     letter-spacing: 7.04px;
     margin: 30px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 16px;
+    top: 126px;
+    left: 126px;
+    right: 552px;
+    bottom: 418px;
 
 }
 .party-section p {
@@ -170,8 +168,14 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
-margin: 30px;
+margin-top: 30px;
 position: absolute;
 color: rgba(255, 255, 255, 0.80);
-
+top: 326px;
+left: 126px;
+right: 497px;
+bottom: 214px;
+}
+.party-section button{
+    align-items: center;
 }
