@@ -142,15 +142,6 @@ header {
     margin-top: 20px;
 }
 
-#midnight-party-img{
-    display: flex;
-position: relative;
-    
-}
-.midnight-party-img .party-2024{
-    top: 100px;
-}
-
 .party-section h3 {
     color: #FFF;
     font-family: Merriweather;
@@ -179,7 +170,4 @@ top: 326px;
 left: 126px;
 right: 497px;
 bottom: 214px;
-}
-.party-section button{
-    align-items: center;
 }
