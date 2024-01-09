@@ -142,9 +142,13 @@ header {
     margin-top: 20px;
 }
 
-.party-section {
-    /* background-image: url(/resources/Vectorrr.png) no-repeat center fixed;
-    background-size: cover; */
+#midnight-party-img{
+    display: flex;
+position: relative;
+    
+}
+.midnight-party-img .party-2024{
+    top: 100px;
 }
 
 .party-section h3 {
