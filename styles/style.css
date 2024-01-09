@@ -339,15 +339,12 @@ border-radius: 0px 50px 50px 0px;
 background: #F00;
 }
 .footer-section{
-justify-content: center;
-align-items: center;
 margin-right: 0%;
 margin-left: 0%;
 padding: 100px 385px 214px 385px;
 background: #070211;
 display: flex;
-flex-flow: nowrap;
-justify-content: space-evenly;
+justify-content: space-between;
 }
 .footer-section-top-left p{
     color: #FFF;
@@ -360,8 +357,4 @@ justify-content: space-evenly;
     font-family: Inter;
     font-size: 24px;
     text-align: right;
-}
-.footer-section-top-center{
-align-items: center;
-align-content: center;
 }
